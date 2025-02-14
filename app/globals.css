@@ -70,3 +70,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+:root {
+  --secondary-color: #d09b48;
+}
+
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
