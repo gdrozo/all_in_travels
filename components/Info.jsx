@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 function Info({ title, children }) {
@@ -9,7 +7,6 @@ function Info({ title, children }) {
         {title}
       </h2>
       {children}
-      <div className='h-px max-w-[1325px] bg-secondary-color w-[min(1325px,100dvw)]'></div>
     </div>
   )
 }
