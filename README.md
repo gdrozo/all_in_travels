@@ -7,5 +7,8 @@ npm install -g pnpm
 
 ```bash
 pnpm install
+```
+
+```bash
 pnpm run dev
 ```
