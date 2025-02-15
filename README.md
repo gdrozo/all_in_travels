@@ -1,8 +1,11 @@
 El proyecto se ha desarrollado con Next.js, Tailwind CSS y shadcn.
 
 ## Ejecución
+```bash
+npm install -g pnpm
+```
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
