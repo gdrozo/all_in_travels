@@ -4,7 +4,7 @@ import React from 'react'
 
 function Cards({ url, alt, path, title }) {
   return (
-    <div className='h-[14rem] w-[25rem] rounded-3xl relative overflow-hidden'>
+    <div className='sm:h-[14rem] h-[200px] w-[min(25rem,90dvw)] rounded-3xl relative overflow-hidden'>
       <Link
         href={url}
         className='absolute text-white h-full w-full z-10 flex items-center justify-center'
@@ -37,7 +37,7 @@ function Cards({ url, alt, path, title }) {
         </div>
       </Link>
 
-      <div className='absolute top-0 left-0 w-full h-full bg-white opacity-40 z-0'></div>
+      <div className='absolute top-0 left-0 w-full h-full sm:bg-white opacity-40 z-0'></div>
     </div>
   )
 }
